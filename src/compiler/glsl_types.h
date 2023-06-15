@@ -29,12 +29,12 @@
 #include <assert.h>
 
 #include "shader_enums.h"
-//#include "c11/threads.h"
-#include "util/blob.h"
-#include "util/macros.h"
+//#include "../../include/c11/threads.h"
+#include "../util/blob.h"
+#include "../util/macros.h"
 
 #ifdef __cplusplus
-#include "main/config.h"
+#include "../mesa/main/config.h"
 #endif
 
 struct glsl_type;
@@ -238,9 +238,9 @@ enum {
 };
 
 #ifdef __cplusplus
-#include "GL/gl.h"
-#include "util/ralloc.h"
-#include "main/menums.h" /* for gl_texture_index, C++'s enum rules are broken */
+#include "../../include/GL/gl.h"
+#include "../util/ralloc.h"
+#include "../mesa/main/menums.h" /* for gl_texture_index, C++'s enum rules are broken */
 
 struct glsl_type {
    GLenum gl_type;
@@ -324,7 +324,7 @@ public:
 #undef  STRUCT_TYPE
 #define STRUCT_TYPE(NAME) \
    static const glsl_type *const struct_##NAME##_type;
-#include "compiler/builtin_type_macros.h"
+#include "builtin_type_macros.h"
    /*@}*/
 
    /**
@@ -1156,7 +1156,7 @@ private:
 #define DECL_TYPE(NAME, ...) static const glsl_type _##NAME##_type;
 #undef  STRUCT_TYPE
 #define STRUCT_TYPE(NAME)        static const glsl_type _struct_##NAME##_type;
-#include "compiler/builtin_type_macros.h"
+#include "builtin_type_macros.h"
    /*@}*/
 
    /**

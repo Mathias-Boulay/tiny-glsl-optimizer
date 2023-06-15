@@ -1,5 +1,5 @@
 /*
- * Copyright © 2010 Intel Corporation
+ * Copyright Â© 2010 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -36,9 +36,9 @@
 #include "ir_rvalue_visitor.h"
 #include "ir_basic_block.h"
 #include "ir_optimization.h"
-#include "compiler/glsl_types.h"
-#include "util/hash_table.h"
-#include "util/set.h"
+#include "../glsl_types.h"
+#include "../../util/hash_table.h"
+#include "../../util/set.h"
 
 static bool debug = false;
 

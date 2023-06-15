@@ -63,8 +63,8 @@
 #include "ir.h"
 #include "ir_optimization.h"
 #include "ir_rvalue_visitor.h"
-#include "util/hash_table.h"
-#include "main/mtypes.h"
+#include "../../util/hash_table.h"
+#include "../../mesa/main/mtypes.h"
 
 static const glsl_type *
 process_array_type(const glsl_type *type, unsigned idx)

@@ -44,7 +44,7 @@
 #ifndef _GLAPI_H
 #define _GLAPI_H
 
-#include "util/macros.h"
+#include "../../util/macros.h"
 
 
 #ifdef __cplusplus

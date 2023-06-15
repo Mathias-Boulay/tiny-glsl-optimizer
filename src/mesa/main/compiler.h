@@ -36,9 +36,9 @@
 
 #include <assert.h>
 
-#include "util/macros.h"
+#include "macros.h"
 
-#include "c99_compat.h" /* inline, __func__, etc. */
+#include "../../../include/c99_compat.h" /* inline, __func__, etc. */
 
 
 /**

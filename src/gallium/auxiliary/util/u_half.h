@@ -28,8 +28,8 @@
 #ifndef U_HALF_H
 #define U_HALF_H
 
-#include "pipe/p_compiler.h"
-#include "util/u_math.h"
+#include "../../include/pipe/p_compiler.h"
+#include "../../../util/u_math.h"
 
 #ifdef __cplusplus
 extern "C" {

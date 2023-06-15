@@ -1,4 +1,4 @@
-/* Copyright © 2014 Intel Corporation
+/* Copyright Â© 2014 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -24,8 +24,8 @@
 #define MESA_SHA1_H
 
 #include <stdlib.h>
-#include "c99_compat.h"
-#include "sha1/sha1.h"
+#include "../../include/c99_compat.h"
+#include "./sha1/sha1.h"
 
 #ifdef __cplusplus
 extern "C" {

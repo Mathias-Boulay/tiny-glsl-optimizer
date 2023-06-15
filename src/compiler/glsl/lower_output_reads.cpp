@@ -23,7 +23,7 @@
  */
 
 #include "ir.h"
-#include "util/hash_table.h"
+#include "../../util/hash_table.h"
 
 /**
  * \file lower_output_reads.cpp

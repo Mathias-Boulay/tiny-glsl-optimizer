@@ -32,8 +32,8 @@
 #define _VBO_H
 
 #include <stdbool.h>
-#include "main/glheader.h"
-#include "main/draw.h"
+#include "../main/glheader.h"
+#include "../main/draw.h"
 
 #ifdef __cplusplus
 extern "C" {

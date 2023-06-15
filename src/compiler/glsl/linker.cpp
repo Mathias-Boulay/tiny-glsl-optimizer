@@ -1,5 +1,5 @@
 /*
- * Copyright © 2010 Intel Corporation
+ * Copyright Â© 2010 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -65,15 +65,15 @@
  */
 
 #include <ctype.h>
-#include "util/strndup.h"
+#include "../../util/strndup.h"
 #include "glsl_symbol_table.h"
 #include "glsl_parser_extras.h"
 #include "ir.h"
 #include "program.h"
-#include "program/prog_instruction.h"
-#include "program/program.h"
-#include "util/mesa-sha1.h"
-#include "util/set.h"
+#include "../../mesa/program/prog_instruction.h"
+#include "program.h"
+#include "../../util/mesa-sha1.h"
+#include "../../util/set.h"
 #include "string_to_uint_map.h"
 #include "linker.h"
 #include "linker_util.h"
@@ -82,14 +82,14 @@
 #include "ir_rvalue_visitor.h"
 #include "ir_uniform.h"
 #include "builtin_functions.h"
-//#include "shader_cache.h"
-#include "util/u_string.h"
-#include "util/u_math.h"
+//#include "DUMMY"
+#include "../../util/u_string.h"
+#include "../../util/u_math.h"
 
-#include "main/imports.h"
-#include "main/shaderobj.h"
-#include "main/enums.h"
-#include "main/mtypes.h"
+#include "../../mesa/main/imports.h"
+#include "../../mesa/main/shaderobj.h"
+#include "../../mesa/main/enums.h"
+#include "../../mesa/main/mtypes.h"
 
 
 namespace {

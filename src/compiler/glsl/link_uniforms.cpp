@@ -1,5 +1,5 @@
 /*
- * Copyright © 2011 Intel Corporation
+ * Copyright Â© 2011 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -29,8 +29,8 @@
 #include "string_to_uint_map.h"
 #include "ir_array_refcount.h"
 
-#include "main/mtypes.h"
-#include "util/strndup.h"
+#include "../../mesa/main/mtypes.h"
+#include "../../util/strndup.h"
 
 /**
  * \file link_uniforms.cpp

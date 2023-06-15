@@ -32,7 +32,7 @@
 #ifndef MENUMS_H
 #define MENUMS_H
 
-#include "util/macros.h"
+#include "macros.h"
 
 /**
  * Enum for the OpenGL APIs we know about and may support.
@@ -90,7 +90,7 @@ typedef enum
  *
  *    result_bit = logic_op & (1 << (2 * src_bit + dst_bit))
  */
-enum PACKED gl_logicop_mode {
+enum gl_logicop_mode {
    COLOR_LOGICOP_CLEAR = 0,
    COLOR_LOGICOP_NOR = 1,
    COLOR_LOGICOP_AND_INVERTED = 2,

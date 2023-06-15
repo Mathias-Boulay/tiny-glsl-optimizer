@@ -30,23 +30,23 @@
 
 #include <getopt.h>
 
-#include "ast.h"
-#include "ir_optimization.h"
-#include "program.h"
-#include "program/program.h"
-#include "ir_reader.h"
-#include "standalone_scaffolding.h"
-#include "main/mtypes.h"
-#include "main/menums.h"
-#include "builtin_functions.h"
-#include "loop_analysis.h"
+#include "../compiler/glsl/ast.h"
+#include "../compiler/glsl/ir_optimization.h"
+#include "../mesa/program/program.h"
+#include "../mesa/program/program.h"
+#include "../compiler/glsl/ir_reader.h"
+#include "../compiler/glsl/standalone_scaffolding.h"
+#include "../mesa/main/mtypes.h"
+#include "../mesa/main/menums.h"
+#include "../compiler/glsl/builtin_functions.h"
+#include "../compiler/glsl/loop_analysis.h"
 
  //#include "ir_print_ir_visitor.h"
 #include "ir_print_glsl_visitor.h"
-//#include "ir_builder_print_visitor.h"
+//#include "../compiler/glsl/ir_builder_print_visitor.h"
 
-#include "string_to_uint_map.h"
-#include "linker.h"
+#include "../compiler/glsl/string_to_uint_map.h"
+#include "../compiler/glsl/linker.h"
 
 ///////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////

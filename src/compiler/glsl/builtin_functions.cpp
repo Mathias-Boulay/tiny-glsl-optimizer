@@ -75,14 +75,14 @@
 
 #include <stdarg.h>
 #include <stdio.h>
-#include "main/mtypes.h"
-#include "main/shaderobj.h"
+#include "../../mesa/main/mtypes.h"
+#include "../../mesa/main/shaderobj.h"
 #include "ir_builder.h"
 #include "glsl_parser_extras.h"
-#include "program/prog_instruction.h"
+#include "../../mesa/program/prog_instruction.h"
 #include <math.h>
 #include "builtin_functions.h"
-#include "util/hash_table.h"
+#include "../../util/hash_table.h"
 
 #define M_PIf   ((float) M_PI)
 #define M_PI_2f ((float) M_PI_2)

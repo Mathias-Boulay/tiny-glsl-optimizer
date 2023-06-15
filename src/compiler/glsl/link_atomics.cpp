@@ -1,5 +1,5 @@
 /*
- * Copyright © 2013 Intel Corporation
+ * Copyright Â© 2013 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -25,9 +25,9 @@
 #include "ir.h"
 #include "ir_uniform.h"
 #include "linker.h"
-#include "main/errors.h"
-#include "main/macros.h"
-#include "main/mtypes.h"
+#include "../../mesa/main/errors.h"
+#include "../../util/macros.h"
+#include "../../mesa/main/mtypes.h"
 
 namespace {
    /*

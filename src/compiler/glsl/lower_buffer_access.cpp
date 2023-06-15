@@ -33,8 +33,8 @@
 
 #include "lower_buffer_access.h"
 #include "ir_builder.h"
-#include "main/macros.h"
-#include "util/list.h"
+#include "../../util/macros.h"
+#include "list.h"
 #include "glsl_parser_extras.h"
 #include "linker.h"
 

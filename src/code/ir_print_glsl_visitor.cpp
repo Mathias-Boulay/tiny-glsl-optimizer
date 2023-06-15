@@ -1,13 +1,13 @@
 #include <inttypes.h>
 #include "ir_print_glsl_visitor.h"
-#include "ir_visitor.h"
-#include "glsl_types.h"
-#include "loop_analysis.h"
-#include "compiler/glsl_types.h"
-#include "glsl_parser_extras.h"
-#include "main/macros.h"
-#include "util/hash_table.h"
-#include "util/u_string.h"
+#include "../compiler/glsl/ir_visitor.h"
+#include "../compiler/glsl_types.h"
+#include "../compiler/glsl/loop_analysis.h"
+#include "../compiler/glsl_types.h"
+#include "../compiler/glsl/glsl_parser_extras.h"
+#include "../util/macros.h"
+#include "../util/hash_table.h"
+#include "../util/u_string.h"
 
 struct ga_entry : public exec_node
 {

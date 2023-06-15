@@ -1,10 +1,10 @@
 #include <inttypes.h>
 #include "ir_print_ir_visitor.h"
-#include "compiler/glsl_types.h"
-#include "glsl_parser_extras.h"
-#include "main/macros.h"
-#include "util/hash_table.h"
-#include "util/u_string.h"
+#include "../compiler/glsl_types.h"
+#include "../compiler/glsl/glsl_parser_extras.h"
+#include "../util/macros.h"
+#include "../util/hash_table.h"
+#include "../util/u_string.h"
 
 void IR_TO_IR::print_type(sbuffer& str, const glsl_type *t)
 {

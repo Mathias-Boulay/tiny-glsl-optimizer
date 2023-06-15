@@ -29,11 +29,11 @@
 #define P_COMPILER_H
 
 
-#include "c99_compat.h" /* inline, __func__, etc. */
+#include "../../../../include/c99_compat.h" /* inline, __func__, etc. */
 
 #include "p_config.h"
 
-#include "util/macros.h"
+#include "../../../util/macros.h"
 
 #include <stdlib.h>
 #include <string.h>

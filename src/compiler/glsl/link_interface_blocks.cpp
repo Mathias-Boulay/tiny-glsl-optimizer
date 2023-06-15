@@ -29,10 +29,10 @@
 #include "ir.h"
 #include "glsl_symbol_table.h"
 #include "linker.h"
-#include "main/macros.h"
-#include "main/mtypes.h"
-#include "util/hash_table.h"
-#include "util/u_string.h"
+#include "../../util/macros.h"
+#include "../../mesa/main/mtypes.h"
+#include "../../util/hash_table.h"
+#include "../../util/u_string.h"
 
 
 namespace {

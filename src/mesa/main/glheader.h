@@ -34,8 +34,8 @@
 
 
 #define GL_GLEXT_PROTOTYPES
-#include "GL/gl.h"
-#include "GL/glext.h"
+#include "../../../include/GL/gl.h"
+#include "../../../include/GL/glext.h"
 
 
 #ifdef __cplusplus

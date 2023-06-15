@@ -1,5 +1,5 @@
 /*
- * Copyright © 2010 Intel Corporation
+ * Copyright Â© 2010 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -41,10 +41,10 @@
 #include "linker.h"
 #include "glsl_parser_extras.h"
 #include "glsl_symbol_table.h"
-#include "main/mtypes.h"
-#include "main/uniforms.h"
-#include "program/prog_statevars.h"
-#include "program/prog_instruction.h"
+#include "../../mesa/main/mtypes.h"
+#include "../../mesa/main/uniforms.h"
+#include "../../mesa/program/prog_statevars.h"
+#include "../../mesa/program/prog_instruction.h"
 #include "builtin_functions.h"
 
 using namespace ir_builder;

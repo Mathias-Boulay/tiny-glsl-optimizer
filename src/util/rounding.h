@@ -1,5 +1,5 @@
 /*
- * Copyright © 2015 Intel Corporation
+ * Copyright Â© 2015 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -24,7 +24,7 @@
 #ifndef _ROUNDING_H
 #define _ROUNDING_H
 
-#include "c99_math.h"
+#include "../../include/c99_math.h"
 
 #include <limits.h>
 #include <stdint.h>

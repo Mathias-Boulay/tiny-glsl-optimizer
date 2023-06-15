@@ -1,5 +1,5 @@
 /*
- * Copyright © 2009,2012 Intel Corporation
+ * Copyright Â© 2009,2012 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -31,7 +31,7 @@
 #include <stdlib.h>
 #include <inttypes.h>
 #include <stdbool.h>
-#include "c99_compat.h"
+#include "../../include/c99_compat.h"
 #include "macros.h"
 
 #ifdef __cplusplus

@@ -1,5 +1,5 @@
-#include "optimizer/optimizer.h"
-#include "code/GlslConvert.h"
+#include "../../include/optimizer/optimizer.h"
+#include "GlslConvert.h"
 
 
 

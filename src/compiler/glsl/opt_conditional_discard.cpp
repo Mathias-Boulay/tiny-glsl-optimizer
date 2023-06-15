@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 Intel Corporation
+ * Copyright Â© 2014 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -33,7 +33,7 @@
  *    (discard <condition>)
  */
 
-#include "compiler/glsl_types.h"
+#include "../glsl_types.h"
 #include "ir.h"
 
 namespace {

@@ -75,7 +75,7 @@
 #line 1 "../src/compiler/glsl/glsl_parser.yy"
 
 /*
- * Copyright © 2008, 2009 Intel Corporation
+ * Copyright Â© 2008, 2009 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -106,9 +106,9 @@
 
 #include "ast.h"
 #include "glsl_parser_extras.h"
-#include "compiler/glsl_types.h"
-#include "main/context.h"
-#include "util/u_string.h"
+#include "../glsl_types.h"
+#include "../../mesa/main/context.h"
+#include "../../util/u_string.h"
 
 #ifdef _MSC_VER
 #pragma warning( disable : 4065 ) // switch statement contains 'default' but no 'case' labels

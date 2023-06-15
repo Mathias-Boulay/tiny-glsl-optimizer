@@ -1,5 +1,5 @@
 /*
- * Copyright © 2010 Intel Corporation
+ * Copyright Â© 2010 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -24,7 +24,7 @@
 #ifndef IR_TO_MESA_H
 #define IR_TO_MESA_H
 
-#include "main/glheader.h"
+#include "../main/glheader.h"
 
 #ifdef __cplusplus
 extern "C" {

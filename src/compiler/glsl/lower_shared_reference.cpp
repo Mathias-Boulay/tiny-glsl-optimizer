@@ -34,10 +34,10 @@
 #include "lower_buffer_access.h"
 #include "ir_builder.h"
 #include "linker.h"
-#include "main/macros.h"
-#include "util/list.h"
+#include "../../util/macros.h"
+#include "list.h"
 #include "glsl_parser_extras.h"
-#include "main/mtypes.h"
+#include "../../mesa/main/mtypes.h"
 
 using namespace ir_builder;
 

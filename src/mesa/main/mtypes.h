@@ -36,19 +36,19 @@
 
 #include <stdint.h>             /* uint32_t */
 #include <stdbool.h>
-//#include "c11/threads.h"
+//#include "../../../include/c11/threads.h"
 
-#include "main/glheader.h"
-#include "main/menums.h"
-#include "main/config.h"
-#include "glapi/glapi.h"
-#include "math/m_matrix.h"	/* GLmatrix */
-#include "compiler/shader_enums.h"
-#include "compiler/shader_info.h"
-#include "main/formats.h"       /* MESA_FORMAT_COUNT */
-#include "compiler/glsl/list.h"
-#include "util/simple_mtx.h"
-#include "util/u_dynarray.h"
+#include "glheader.h"
+#include "menums.h"
+#include "config.h"
+#include "../../mapi/glapi/glapi.h"
+#include "../math/m_matrix.h"	/* GLmatrix */
+#include "../../compiler/shader_enums.h"
+#include "../../compiler/shader_info.h"
+#include "formats.h"       /* MESA_FORMAT_COUNT */
+#include "../../util/list.h"
+#include "../../util/simple_mtx.h"
+#include "../../util/u_dynarray.h"
 
 
 #ifdef __cplusplus

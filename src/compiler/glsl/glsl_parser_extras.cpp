@@ -26,14 +26,14 @@
 #include <string.h>
 #include <assert.h>
 
-#include "main/context.h"
-#include "main/debug_output.h"
-#include "main/formats.h"
-#include "main/shaderobj.h"
-#include "util/u_atomic.h" /* for p_atomic_cmpxchg */
-#include "util/ralloc.h"
-#include "util/disk_cache.h"
-#include "util/mesa-sha1.h"
+#include "../../mesa/main/context.h"
+#include "../../mesa/main/debug_output.h"
+#include "../../mesa/main/formats.h"
+#include "../../mesa/main/shaderobj.h"
+#include "../../util/u_atomic.h" /* for p_atomic_cmpxchg */
+#include "../../util/ralloc.h"
+#include "../../util/disk_cache.h"
+#include "../../util/mesa-sha1.h"
 #include "ast.h"
 #include "glsl_parser_extras.h"
 #include "glsl_parser.h"
@@ -608,7 +608,7 @@ has_##name_str(const struct gl_context *ctx, gl_api api, uint8_t version) \
    return ctx->Extensions.driver_cap && (version >= \
           _mesa_extension_table[MESA_EXTENSION_##name_str].version[api]); \
 }
-#include "main/extensions_table.h"
+#include "../../mesa/main/extensions_table.h"
 #undef EXT
 
 #define EXT(NAME)                                           \

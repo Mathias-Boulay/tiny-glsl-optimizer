@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 Intel Corporation
+ * Copyright Â© 2014 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -23,7 +23,7 @@
 
 #include <string.h>
 
-#include "main/macros.h"
+#include "macros.h"
 #include "blob.h"
 
 #ifdef HAVE_VALGRIND

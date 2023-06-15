@@ -19,7 +19,7 @@
 #include <string>
 #include <map>
 #include <functional>
-#include "compiler/shader_enums.h"
+#include "../compiler/shader_enums.h"
 
 struct exec_list;
 struct gl_context;
@@ -202,7 +202,7 @@ public:
 
 		struct DeadCodeOptions
 		{
-			bool keep_only_assigned_uniforms = true; // true => ne garde que les uniform assignés (loc >= 0) 
+			bool keep_only_assigned_uniforms = true; // true => ne garde que les uniform assignÃ©s (loc >= 0) 
 		} deadCodeOptions;
 
 		struct DeadFunctionOptions

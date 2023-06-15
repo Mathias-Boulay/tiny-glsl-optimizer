@@ -41,7 +41,7 @@
 #include <string.h>
 #include "compiler.h"
 #include "glheader.h"
-#include "util/bitscan.h"
+#include "../../util/bitscan.h"
 
 #ifdef __cplusplus
 extern "C" {

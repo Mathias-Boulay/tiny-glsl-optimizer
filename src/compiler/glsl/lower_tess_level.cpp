@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 Intel Corporation
+ * Copyright Â© 2014 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -48,8 +48,8 @@
 #include "glsl_symbol_table.h"
 #include "ir_rvalue_visitor.h"
 #include "ir.h"
-#include "program/prog_instruction.h" /* For WRITEMASK_* */
-#include "main/mtypes.h"
+#include "../../mesa/program/prog_instruction.h" /* For WRITEMASK_* */
+#include "../../mesa/main/mtypes.h"
 
 namespace {
 

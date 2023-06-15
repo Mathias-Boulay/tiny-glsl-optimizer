@@ -1,5 +1,5 @@
 /*
- * Copyright © 2013 Intel Corporation
+ * Copyright Â© 2013 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -55,8 +55,8 @@
 #include "ir.h"
 #include "ir_visitor.h"
 #include "ir_optimization.h"
-#include "compiler/glsl_types.h"
-#include "program/prog_instruction.h"
+#include "../glsl_types.h"
+#include "../../mesa/program/prog_instruction.h"
 
 namespace {
 

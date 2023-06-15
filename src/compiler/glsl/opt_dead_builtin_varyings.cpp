@@ -50,10 +50,10 @@
 #include "ir_rvalue_visitor.h"
 #include "ir_optimization.h"
 #include "ir_print_visitor.h"
-#include "compiler/glsl_types.h"
+#include "../glsl_types.h"
 #include "link_varyings.h"
-#include "main/mtypes.h"
-#include "util/u_string.h"
+#include "../../mesa/main/mtypes.h"
+#include "../../util/u_string.h"
 
 namespace {
 

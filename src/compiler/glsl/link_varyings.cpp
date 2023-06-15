@@ -29,16 +29,16 @@
  */
 
 
-#include "main/errors.h"
-#include "main/mtypes.h"
+#include "../../mesa/main/errors.h"
+#include "../../mesa/main/mtypes.h"
 #include "glsl_symbol_table.h"
 #include "glsl_parser_extras.h"
 #include "ir_optimization.h"
 #include "linker.h"
 #include "link_varyings.h"
-#include "main/macros.h"
-#include "util/hash_table.h"
-#include "util/u_math.h"
+#include "../../util/macros.h"
+#include "../../util/hash_table.h"
+#include "../../util/u_math.h"
 #include "program.h"
 
 

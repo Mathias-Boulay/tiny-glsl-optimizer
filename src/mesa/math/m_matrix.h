@@ -32,7 +32,7 @@
 #define _M_MATRIX_H
 
 
-#include "main/glheader.h"
+#include "../main/glheader.h"
 
 
 #ifdef __cplusplus

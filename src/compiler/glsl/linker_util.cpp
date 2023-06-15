@@ -1,5 +1,5 @@
 /*
- * Copyright © 2018 Intel Corporation
+ * Copyright Â© 2018 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -21,9 +21,9 @@
  * IN THE SOFTWARE.
  *
  */
-#include "main/mtypes.h"
+#include "../../mesa/main/mtypes.h"
 #include "linker_util.h"
-#include "util/set.h"
+#include "../../util/set.h"
 #include "ir_uniform.h" /* for gl_uniform_storage */
 
 /* Utility methods shared between the GLSL IR and the NIR */

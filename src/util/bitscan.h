@@ -42,7 +42,7 @@
 #include <popcntintrin.h>
 #endif
 
-#include "c99_compat.h"
+#include "../../include/c99_compat.h"
 
 #ifdef __cplusplus
 extern "C" {

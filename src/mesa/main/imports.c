@@ -44,7 +44,7 @@
 
 #include <stdio.h>
 #include <stdarg.h>
-#include "c99_math.h"
+#include "../../../include/c99_math.h"
 #include "imports.h"
 #include "context.h"
 #include "version.h"

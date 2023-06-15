@@ -1,5 +1,5 @@
 /*
- * Copyright © 2012 Intel Corporation
+ * Copyright Â© 2012 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -25,10 +25,10 @@
 #include "linker.h"
 #include "ir_uniform.h"
 #include "link_uniform_block_active_visitor.h"
-#include "util/hash_table.h"
+#include "../../util/hash_table.h"
 #include "program.h"
-#include "main/errors.h"
-#include "main/mtypes.h"
+#include "../../mesa/main/errors.h"
+#include "../../mesa/main/mtypes.h"
 
 namespace {
 

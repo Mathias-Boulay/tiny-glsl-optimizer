@@ -1,5 +1,5 @@
 /*
- * Copyright © 2012 Intel Corporation
+ * Copyright Â© 2012 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -32,9 +32,9 @@
  */
 
 
-#include "main/glheader.h"
-#include "program/prog_parameter.h"
-#include "util/bitset.h"
+#include "../../mesa/main/glheader.h"
+#include "../../mesa/program/prog_parameter.h"
+#include "../../util/bitset.h"
 
 struct gl_shader_program;
 struct gl_shader;

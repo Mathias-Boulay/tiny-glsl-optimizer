@@ -1,5 +1,5 @@
 /*
- * Copyright © 2016 Intel Corporation
+ * Copyright Â© 2016 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -25,11 +25,11 @@
 #include "ir_builder.h"
 #include "ir_optimization.h"
 #include "ir_hierarchical_visitor.h"
-#include "program/prog_instruction.h"
-#include "program/prog_statevars.h"
-#include "util/bitscan.h"
+#include "../../mesa/program/prog_instruction.h"
+#include "../../mesa/program/prog_statevars.h"
+#include "../../util/bitscan.h"
 #include "builtin_functions.h"
-#include "main/mtypes.h"
+#include "../../mesa/main/mtypes.h"
 
 using namespace ir_builder;
 

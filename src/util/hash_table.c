@@ -47,7 +47,7 @@
 #include "hash_table.h"
 #include "ralloc.h"
 #include "macros.h"
-#include "main/hash.h"
+#include "../mesa/main/hash.h"
 #include "fast_urem_by_const.h"
 
 static const uint32_t deleted_key_value;

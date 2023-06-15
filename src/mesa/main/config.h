@@ -31,7 +31,7 @@
 #ifndef MESA_CONFIG_H_INCLUDED
 #define MESA_CONFIG_H_INCLUDED
 
-#include "compiler/shader_enums.h"
+#include "../../compiler/shader_enums.h"
 
 /**
  * \name OpenGL implementation limits

@@ -28,7 +28,7 @@
 #ifndef PIPE_VIDEO_CONTEXT_H
 #define PIPE_VIDEO_CONTEXT_H
 
-#include "pipe/p_video_state.h"
+#include "p_video_state.h"
 
 #ifdef __cplusplus
 extern "C" {

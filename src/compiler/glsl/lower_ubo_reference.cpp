@@ -1,5 +1,5 @@
 /*
- * Copyright © 2012 Intel Corporation
+ * Copyright Â© 2012 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -35,9 +35,9 @@
 
 #include "lower_buffer_access.h"
 #include "ir_builder.h"
-#include "main/macros.h"
+#include "../../util/macros.h"
 #include "glsl_parser_extras.h"
-#include "main/mtypes.h"
+#include "../../mesa/main/mtypes.h"
 
 using namespace ir_builder;
 

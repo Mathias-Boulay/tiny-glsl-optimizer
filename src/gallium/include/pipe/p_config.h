@@ -40,7 +40,7 @@
  * - echo | gcc -dM -E - | sort
  * - http://msdn.microsoft.com/en-us/library/b0084kay.aspx
  * 
- * @author José Fonseca <jfonseca@vmware.com>
+ * @author Jos√© Fonseca <jfonseca@vmware.com>
  */
 
 #ifndef P_CONFIG_H_
@@ -126,12 +126,12 @@
  * Endian detection.
  */
 
-#include "util/u_endian.h"
+#include "../../../util/u_endian.h"
 
 /*
  * Auto-detect the operating system family.
  */
-#include "util/detect_os.h"
+#include "../../../util/detect_os.h"
 
 #if DETECT_OS_LINUX
 #define PIPE_OS_LINUX

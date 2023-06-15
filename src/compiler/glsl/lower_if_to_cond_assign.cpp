@@ -1,5 +1,5 @@
 /*
- * Copyright © 2010 Intel Corporation
+ * Copyright Â© 2010 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -51,11 +51,11 @@
  * to attempt to flatten any if-statements appearing at depth > N.
  */
 
-#include "compiler/glsl_types.h"
+#include "../glsl_types.h"
 #include "ir.h"
-#include "util/set.h"
-#include "util/hash_table.h" /* Needed for the hashing functions */
-#include "main/macros.h" /* for MAX2 */
+#include "../../util/set.h"
+#include "../../util/hash_table.h" /* Needed for the hashing functions */
+#include "../../util/macros.h" /* for MAX2 */
 
 namespace {
 

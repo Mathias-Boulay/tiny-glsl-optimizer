@@ -1,6 +1,6 @@
 /* -*- c++ -*- */
 /*
- * Copyright © 2010 Intel Corporation
+ * Copyright Â© 2010 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -26,7 +26,7 @@
 #define LOOP_ANALYSIS_H
 
 #include "ir.h"
-#include "util/hash_table.h"
+#include "../../util/hash_table.h"
 
 /**
  * Analyze and classify all variables used in all loops in the instruction list

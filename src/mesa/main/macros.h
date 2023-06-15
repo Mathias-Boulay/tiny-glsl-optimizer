@@ -31,9 +31,9 @@
 #ifndef MACROS_H
 #define MACROS_H
 
-#include "util/macros.h"
-#include "util/u_math.h"
-#include "util/rounding.h"
+#include "macros.h"
+#include "../../util/u_math.h"
+#include "../../util/rounding.h"
 #include "imports.h"
 
 

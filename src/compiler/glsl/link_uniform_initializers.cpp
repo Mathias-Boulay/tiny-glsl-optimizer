@@ -1,5 +1,5 @@
 /*
- * Copyright © 2012 Intel Corporation
+ * Copyright Â© 2012 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -25,7 +25,7 @@
 #include "linker.h"
 #include "ir_uniform.h"
 #include "string_to_uint_map.h"
-#include "main/mtypes.h"
+#include "../../mesa/main/mtypes.h"
 
 /* These functions are put in a "private" namespace instead of being marked
  * static so that the unit tests can access them.  See

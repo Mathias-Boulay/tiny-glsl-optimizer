@@ -1,5 +1,5 @@
 /*
- * Copyright © 2008 Intel Corporation
+ * Copyright Â© 2008 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -21,11 +21,11 @@
  * DEALINGS IN THE SOFTWARE.
  */
 
-#include "main/imports.h"
-#include "main/errors.h"
+#include "../main/imports.h"
+#include "../main/errors.h"
 #include "symbol_table.h"
 #include "../../util/hash_table.h"
-#include "util/u_string.h"
+#include "../../util/u_string.h"
 
 struct symbol {
    /** Symbol name. */

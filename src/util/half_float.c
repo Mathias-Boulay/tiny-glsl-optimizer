@@ -28,7 +28,7 @@
 #include <math.h>
 #include <assert.h>
 #include "half_float.h"
-#include "util/u_half.h"
+#include "../gallium/auxiliary/util/u_half.h"
 #include "rounding.h"
 #include "softfloat.h"
 #include "macros.h"

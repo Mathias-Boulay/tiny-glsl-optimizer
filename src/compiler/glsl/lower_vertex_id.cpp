@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 Intel Corporation
+ * Copyright Â© 2014 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -36,9 +36,9 @@
 #include "ir.h"
 #include "ir_builder.h"
 #include "linker.h"
-#include "program/prog_statevars.h"
+#include "../../mesa/program/prog_statevars.h"
 #include "builtin_functions.h"
-#include "main/mtypes.h"
+#include "../../mesa/main/mtypes.h"
 
 namespace {
 

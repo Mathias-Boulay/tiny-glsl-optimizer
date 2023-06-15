@@ -1,5 +1,5 @@
 /*
- * Copyright © 2013 Intel Corporation
+ * Copyright Â© 2013 Intel Corporation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a
  * copy of this software and associated documentation files (the "Software"),
@@ -31,7 +31,7 @@
  * \author Chris Forbes <chrisf@ijw.co.nz>
  */
 
-#include "compiler/glsl_types.h"
+#include "../glsl_types.h"
 #include "ir.h"
 #include "ir_builder.h"
 #include "ir_optimization.h"

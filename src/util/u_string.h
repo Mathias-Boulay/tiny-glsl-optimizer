@@ -43,7 +43,7 @@
 #include <stdarg.h>
 #include <string.h>
 
-#include "util/macros.h" // PRINTFLIKE
+#include "macros.h" // PRINTFLIKE
 
 
 #ifdef __cplusplus
