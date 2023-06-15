@@ -27,8 +27,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <fcntl.h>
-#include <io.h>
-#include <share.h>
+
 #include <getopt.h>
 
 #include "ast.h"
@@ -215,7 +214,7 @@ std::string GlslConvert::Optimize(
 
 	struct gl_shader_program* program = 0;
 
-	// si le format d'entréé est un ir
+	// si le format d'entrï¿½ï¿½ est un ir
 	//shader->ir = new(shader) exec_list;
 	//_mesa_glsl_initialize_types(state);
 	//_mesa_glsl_read_ir(state, shader->ir, input.c_str(), true);
