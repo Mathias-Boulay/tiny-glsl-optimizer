@@ -6,6 +6,16 @@
 
 #include "main/macros.h"
 
+int _vscprintf (const char * format, va_list pargs)
+{
+    int retval;
+    va_list argcopy;
+    va_copy(argcopy, pargs);
+    retval = vsnprintf(NULL, 0, format, argcopy);
+    va_end(argcopy);
+    return retval;
+}
+
 class st
 {
 public:
