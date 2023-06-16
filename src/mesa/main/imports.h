@@ -303,7 +303,7 @@ _mesa_align_realloc(void *oldBuffer, size_t oldSize, size_t newSize,
                     unsigned long alignment);
 
 extern int
-_mesa_snprintf( char *str, size_t size, const char *fmt, ... ) PRINTFLIKE(3, 4);
+_mesa_snprintf( char *str, size_t size, const char *fmt, ... );
 
 extern int
 _mesa_vsnprintf(char *str, size_t size, const char *fmt, va_list arg);

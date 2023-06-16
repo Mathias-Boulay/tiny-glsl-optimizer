@@ -3046,7 +3046,7 @@ struct gl_shader_program
     * allocate slots to explicit locations. This list stores the blocks of
     * continuous empty slots inside UniformRemapTable.
     */
-   struct exec_list EmptyUniformLocations;
+   struct exec_list *EmptyUniformLocations;
 
    /**
     * Total number of explicit uniform location including inactive uniforms.

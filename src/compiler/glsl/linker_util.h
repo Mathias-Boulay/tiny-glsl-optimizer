@@ -24,6 +24,8 @@
 #ifndef GLSL_LINKER_UTIL_H
 #define GLSL_LINKER_UTIL_H
 
+#include "list.h"
+
 struct gl_shader_program;
 struct gl_uniform_storage;
 

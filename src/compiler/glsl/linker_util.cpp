@@ -112,7 +112,7 @@ link_util_find_empty_block(struct gl_shader_program *prog,
    const unsigned entries = MAX2(1, uniform->array_elements);
 
    foreach_list_typed(struct empty_uniform_block, block, link,
-                      &prog->EmptyUniformLocations) {
+                      prog->EmptyUniformLocations) {
       /* Found a block with enough slots to fit the uniform */
       if (block->slots == entries) {
          unsigned start = block->start;
@@ -145,7 +145,7 @@ link_util_update_empty_uniform_locations(struct gl_shader_program *prog)
          if (!current_block || current_block->start + current_block->slots != i) {
             current_block = rzalloc(prog, struct empty_uniform_block);
             current_block->start = i;
-            exec_list_push_tail(&prog->EmptyUniformLocations,
+            exec_list_push_tail(prog->EmptyUniformLocations,
                                 &current_block->link);
          }
 

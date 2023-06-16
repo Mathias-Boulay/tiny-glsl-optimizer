@@ -69,7 +69,7 @@
 #include "glsl_symbol_table.h"
 #include "glsl_parser_extras.h"
 #include "ir.h"
-#include "program.h"
+#include "../../mesa/program/program.h"
 #include "../../mesa/program/prog_instruction.h"
 #include "program.h"
 #include "../../util/mesa-sha1.h"

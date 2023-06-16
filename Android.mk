@@ -146,7 +146,10 @@ LOCAL_SRC_FILES := \
     src/compiler/glsl/glcpp/glcpp-lex.c \
     src/compiler/shader_enums.c \
 
-LOCAL_CFLAGS += -std=c++20 #-funwind-tables -Ofast -ffast-math -mllvm -polly
+LOCAL_CPPFLAGS = -std=c++14
+
+#LOCAL_CFLAGS += -std=c++14 #-funwind-tables -Ofast -ffast-math -mllvm -polly
+
 LOCAL_CFLAGS += -D_LIB
 LOCAL_CFLAGS += -DNOMINMAX
 LOCAL_CFLAGS += -D_USE_MATH_DEFINES

@@ -44,7 +44,7 @@
 #include "builtin_functions.h"
 #include "opt_add_neg_to_sub.h"
 #include "../../mesa/main/mtypes.h"
-#include "program.h"
+#include "../../mesa/program/program.h"
 
 class dead_variable_visitor : public ir_hierarchical_visitor {
 public:
