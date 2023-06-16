@@ -128,6 +128,7 @@ LOCAL_SRC_FILES := \
 	src/util/sha1/sha1.c \
     src/util/half_float.c \
     src/util/blob.c \
+    src/util/compat_layer.c \
     src/util/strtod.c \
     src/util/hash_table.c \
     src/util/softfloat.c \
@@ -146,7 +147,7 @@ LOCAL_SRC_FILES := \
     src/compiler/glsl/glcpp/glcpp-lex.c \
     src/compiler/shader_enums.c \
 
-LOCAL_CPPFLAGS = -std=c++14
+#LOCAL_CPPFLAGS = -std=c++14
 
 #LOCAL_CFLAGS += -std=c++14 #-funwind-tables -Ofast -ffast-math -mllvm -polly
 

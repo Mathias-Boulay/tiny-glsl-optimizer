@@ -33,13 +33,6 @@
 
 extern int glcpp_parser_debug;
 
-void
-_mesa_reference_shader(struct gl_context *ctx, struct gl_shader **ptr,
-                       struct gl_shader *sh)
-{
-   (void) ctx;
-   *ptr = sh;
-}
 
 /* Read from fp until EOF and return a string of everything read.
  */
