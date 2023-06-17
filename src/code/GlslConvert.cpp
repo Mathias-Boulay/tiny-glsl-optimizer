@@ -18,22 +18,13 @@
 
 #include "GlslConvert.h"
 
-#include <errno.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <string>
-#include <iostream>
-#include <sstream>
-#include <stdlib.h>
-#include <stdio.h>
-#include <fcntl.h>
-
-#include <getopt.h>
+#include <cstdio>
+#include <cstring>
 
 #include "../compiler/glsl/ast.h"
 #include "../compiler/glsl/ir_optimization.h"
 #include "../mesa/program/program.h"
-#include "../mesa/program/program.h"
+#include "../compiler/glsl/program.h"
 #include "../compiler/glsl/ir_reader.h"
 #include "../compiler/glsl/standalone_scaffolding.h"
 #include "../mesa/main/mtypes.h"
@@ -113,7 +104,7 @@ bool GlslConvert::CreateGraph(
 
 	ir_variable::temporaries_allocate_names = true;
 
-	std::string input = vShaderSource;
+	const std::string& input = vShaderSource;
 
 	struct _mesa_glsl_parse_state* state
 		= new(shader) _mesa_glsl_parse_state(ctx, shader->Stage, shader);
@@ -207,7 +198,7 @@ std::string GlslConvert::Optimize(
 
 	ir_variable::temporaries_allocate_names = true;
 
-	std::string input = vShaderSource;
+	const std::string& input = vShaderSource;
 
 	struct _mesa_glsl_parse_state* state
 		= new(shader) _mesa_glsl_parse_state(ctx, shader->Stage, shader);
