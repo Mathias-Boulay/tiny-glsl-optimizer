@@ -20,7 +20,7 @@ public:
 			va_list args;
 			va_start(args, fmt);
 
-			size_t size = _vscprintf(fmt, args);
+			size_t size = vscprintf(fmt, args);
 			char *buf = new char[size + 1];
 			size_t nsize = vsnprintf(buf, size, fmt, args);
 			buffer += buf;
@@ -94,7 +94,7 @@ public:
 	{
 		assert(m_Ptr != NULL);
 
-		size_t new_length = _vscprintf(fmt, args);
+		size_t new_length = vscprintf(fmt, args);
 		size_t needed_length = m_Size + new_length + 1;
 
 		if (m_Capacity < needed_length)

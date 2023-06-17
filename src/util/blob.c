@@ -23,7 +23,7 @@
 
 #include <string.h>
 
-#include "macros.h"
+#include "../mesa/main/macros.h"
 #include "blob.h"
 
 #ifdef HAVE_VALGRIND

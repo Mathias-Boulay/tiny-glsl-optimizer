@@ -8,6 +8,6 @@
 #ifndef GLSLOPTIMIZERV2_COMPAT_LAYER_H
 #define GLSLOPTIMIZERV2_COMPAT_LAYER_H
 
-int _vscprintf (const char * format, va_list pargs);
+int vscprintf (const char * format, va_list pargs);
 
 #endif //GLSLOPTIMIZERV2_COMPAT_LAYER_H

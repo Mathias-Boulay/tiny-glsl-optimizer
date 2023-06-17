@@ -125,10 +125,10 @@ LOCAL_SRC_FILES := \
 	src/compiler/glsl/lower_output_reads.cpp \
 	src/compiler/glsl/lower_packed_varyings.cpp \
 	src/compiler/glsl_types.cpp \
+	src/util/compat_layer.cpp \
 	src/util/sha1/sha1.c \
     src/util/half_float.c \
     src/util/blob.c \
-    src/util/compat_layer.c \
     src/util/strtod.c \
     src/util/hash_table.c \
     src/util/softfloat.c \
@@ -148,6 +148,8 @@ LOCAL_SRC_FILES := \
     src/compiler/shader_enums.c \
 
 #APP_STL := c++_shared
+
+LOCAL_CPP_FEATURES := exceptions
 
 LOCAL_CPPFLAGS = -std=gnu++20
 

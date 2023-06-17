@@ -6,7 +6,7 @@
 #include "compat_layer.h"
 
 
-int _vscprintf (const char * format, va_list pargs)
+int vscprintf (const char * format, va_list pargs)
 {
     int retval;
     va_list argcopy;
